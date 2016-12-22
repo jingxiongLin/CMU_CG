@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+D:/Project/C++/CG/asst1_drawsvg-master/CMU462/CMakeLists.txt
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindOpenGL.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPkgConfig.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindGLEW.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/SelectLibraryConfigurations.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake

@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/glfw/CMakeLists.txt
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindOpenGL.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindThreads.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CheckLibraryExists.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CMakePackageConfigHelpers.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/WriteBasicConfigVersionFile.cmake
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/glfw/src/glfw3Config.cmake.in
+D:/Soft_Installed/CMake/share/cmake-3.7/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/glfw/src/glfw_config.h.in
+D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/glfw/src/glfw3.pc.in
+D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/glfw/cmake_uninstall.cmake.in

@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{708C9A4A-819E-376F-83C5-BCD3349685BC}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>drawsvg</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Project\C++\CG\asst1_drawsvg-master\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">drawsvg.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">drawsvg</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Project\C++\CG\asst1_drawsvg-master\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">drawsvg.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">drawsvg</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Project\C++\CG\asst1_drawsvg-master\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">drawsvg.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">drawsvg</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Project\C++\CG\asst1_drawsvg-master\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">drawsvg.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">drawsvg</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -E copy_if_different D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/bin/freetype6.dll D:/Project/C++/CG/asst1_drawsvg-master/build/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -E copy_if_different D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/bin/zlib1.dll D:/Project/C++/CG/asst1_drawsvg-master/build/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\drawsvg_hdwr.lib;..\..\src\reference\drawsvg_ref.lib;freetype.lib;glu32.lib;opengl32.lib;..\CMU462\src\Debug\CMU462.lib;..\CMU462\deps\glew\Debug\glew.lib;..\CMU462\deps\glfw\src\Debug\glfw3.lib;opengl32.lib;Debug\drawsvg_hdwr.lib;..\..\src\reference\drawsvg_ref.lib;opengl32.lib;freetype.lib;glu32.lib;opengl32.lib;-fopenmp;-lXi;-lXxf86vm;-lXinerama;-lXcursor;-lXfixes;-lXrandr;-lXext;-lXrender;-lX11;-lpthread;-lxcb;-lXau;glu32.lib;freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/lib;D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/C++/CG/asst1_drawsvg-master/build/Debug/drawsvg.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/C++/CG/asst1_drawsvg-master/build/Debug/drawsvg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -E copy_if_different D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/bin/freetype6.dll D:/Project/C++/CG/asst1_drawsvg-master/build/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -E copy_if_different D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/bin/zlib1.dll D:/Project/C++/CG/asst1_drawsvg-master/build/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\drawsvg_hdwr.lib;..\..\src\reference\drawsvg_ref.lib;freetype.lib;glu32.lib;opengl32.lib;..\CMU462\src\Release\CMU462.lib;..\CMU462\deps\glew\Release\glew.lib;..\CMU462\deps\glfw\src\Release\glfw3.lib;opengl32.lib;Release\drawsvg_hdwr.lib;..\..\src\reference\drawsvg_ref.lib;opengl32.lib;freetype.lib;glu32.lib;opengl32.lib;-fopenmp;-lXi;-lXxf86vm;-lXinerama;-lXcursor;-lXfixes;-lXrandr;-lXext;-lXrender;-lX11;-lpthread;-lxcb;-lXau;glu32.lib;freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/lib;D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/C++/CG/asst1_drawsvg-master/build/Release/drawsvg.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/C++/CG/asst1_drawsvg-master/build/Release/drawsvg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -E copy_if_different D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/bin/freetype6.dll D:/Project/C++/CG/asst1_drawsvg-master/build/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -E copy_if_different D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/bin/zlib1.dll D:/Project/C++/CG/asst1_drawsvg-master/build/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\drawsvg_hdwr.lib;..\..\src\reference\drawsvg_ref.lib;freetype.lib;glu32.lib;opengl32.lib;..\CMU462\src\MinSizeRel\CMU462.lib;..\CMU462\deps\glew\MinSizeRel\glew.lib;..\CMU462\deps\glfw\src\MinSizeRel\glfw3.lib;opengl32.lib;MinSizeRel\drawsvg_hdwr.lib;..\..\src\reference\drawsvg_ref.lib;opengl32.lib;freetype.lib;glu32.lib;opengl32.lib;-fopenmp;-lXi;-lXxf86vm;-lXinerama;-lXcursor;-lXfixes;-lXrandr;-lXext;-lXrender;-lX11;-lpthread;-lxcb;-lXau;glu32.lib;freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/lib;D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/C++/CG/asst1_drawsvg-master/build/MinSizeRel/drawsvg.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/C++/CG/asst1_drawsvg-master/build/MinSizeRel/drawsvg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\include\CMU462;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include;D:\Project\C++\CG\asst1_drawsvg-master\CMU462\deps\freetype\include\freetype2;D:\Project\C++\CG\asst1_drawsvg-master\src\dirent;D:\Project\C++\CG\asst1_drawsvg-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -E copy_if_different D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/bin/freetype6.dll D:/Project/C++/CG/asst1_drawsvg-master/build/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -E copy_if_different D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/bin/zlib1.dll D:/Project/C++/CG/asst1_drawsvg-master/build/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\drawsvg_hdwr.lib;..\..\src\reference\drawsvg_ref.lib;freetype.lib;glu32.lib;opengl32.lib;..\CMU462\src\RelWithDebInfo\CMU462.lib;..\CMU462\deps\glew\RelWithDebInfo\glew.lib;..\CMU462\deps\glfw\src\RelWithDebInfo\glfw3.lib;opengl32.lib;RelWithDebInfo\drawsvg_hdwr.lib;..\..\src\reference\drawsvg_ref.lib;opengl32.lib;freetype.lib;glu32.lib;opengl32.lib;-fopenmp;-lXi;-lXxf86vm;-lXinerama;-lXcursor;-lXfixes;-lXrandr;-lXext;-lXrender;-lX11;-lpthread;-lxcb;-lXau;glu32.lib;freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/lib;D:/Project/C++/CG/asst1_drawsvg-master/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/C++/CG/asst1_drawsvg-master/build/RelWithDebInfo/drawsvg.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/C++/CG/asst1_drawsvg-master/build/RelWithDebInfo/drawsvg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\C++\CG\asst1_drawsvg-master\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Project/C++/CG/asst1_drawsvg-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -HD:/Project/C++/CG/asst1_drawsvg-master -BD:/Project/C++/CG/asst1_drawsvg-master/build --check-stamp-file D:\Project\C++\CG\asst1_drawsvg-master\build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Project/C++/CG/asst1_drawsvg-master/src/CMakeLists.txt;D:\Project\C++\CG\asst1_drawsvg-master\src\CMakeLists.txt;D:\Project\C++\CG\asst1_drawsvg-master\src\hardware\hardware.cmake;D:\Project\C++\CG\asst1_drawsvg-master\src\reference\reference.cmake;D:\Project\C++\CG\asst1_drawsvg-master\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Project\C++\CG\asst1_drawsvg-master\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Project/C++/CG/asst1_drawsvg-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -HD:/Project/C++/CG/asst1_drawsvg-master -BD:/Project/C++/CG/asst1_drawsvg-master/build --check-stamp-file D:\Project\C++\CG\asst1_drawsvg-master\build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Project/C++/CG/asst1_drawsvg-master/src/CMakeLists.txt;D:\Project\C++\CG\asst1_drawsvg-master\src\CMakeLists.txt;D:\Project\C++\CG\asst1_drawsvg-master\src\hardware\hardware.cmake;D:\Project\C++\CG\asst1_drawsvg-master\src\reference\reference.cmake;D:\Project\C++\CG\asst1_drawsvg-master\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Project\C++\CG\asst1_drawsvg-master\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Project/C++/CG/asst1_drawsvg-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -HD:/Project/C++/CG/asst1_drawsvg-master -BD:/Project/C++/CG/asst1_drawsvg-master/build --check-stamp-file D:\Project\C++\CG\asst1_drawsvg-master\build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Project/C++/CG/asst1_drawsvg-master/src/CMakeLists.txt;D:\Project\C++\CG\asst1_drawsvg-master\src\CMakeLists.txt;D:\Project\C++\CG\asst1_drawsvg-master\src\hardware\hardware.cmake;D:\Project\C++\CG\asst1_drawsvg-master\src\reference\reference.cmake;D:\Project\C++\CG\asst1_drawsvg-master\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Project\C++\CG\asst1_drawsvg-master\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Project/C++/CG/asst1_drawsvg-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Soft_Installed\CMake\bin\cmake.exe -HD:/Project/C++/CG/asst1_drawsvg-master -BD:/Project/C++/CG/asst1_drawsvg-master/build --check-stamp-file D:\Project\C++\CG\asst1_drawsvg-master\build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Project/C++/CG/asst1_drawsvg-master/src/CMakeLists.txt;D:\Project\C++\CG\asst1_drawsvg-master\src\CMakeLists.txt;D:\Project\C++\CG\asst1_drawsvg-master\src\hardware\hardware.cmake;D:\Project\C++\CG\asst1_drawsvg-master\src\reference\reference.cmake;D:\Project\C++\CG\asst1_drawsvg-master\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Project\C++\CG\asst1_drawsvg-master\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\C++\CG\asst1_drawsvg-master\src\svg.h" />
+    <ClInclude Include="D:\Project\C++\CG\asst1_drawsvg-master\src\png.h" />
+    <ClInclude Include="D:\Project\C++\CG\asst1_drawsvg-master\src\texture.h" />
+    <ClInclude Include="D:\Project\C++\CG\asst1_drawsvg-master\src\viewport.h" />
+    <ClInclude Include="D:\Project\C++\CG\asst1_drawsvg-master\src\triangulation.h" />
+    <ClInclude Include="D:\Project\C++\CG\asst1_drawsvg-master\src\hardware_renderer.h" />
+    <ClInclude Include="D:\Project\C++\CG\asst1_drawsvg-master\src\software_renderer.h" />
+    <ClInclude Include="D:\Project\C++\CG\asst1_drawsvg-master\src\drawsvg.h" />
+    <ClCompile Include="D:\Project\C++\CG\asst1_drawsvg-master\src\svg.cpp"  />
+    <ClCompile Include="D:\Project\C++\CG\asst1_drawsvg-master\src\png.cpp"  />
+    <ClCompile Include="D:\Project\C++\CG\asst1_drawsvg-master\src\texture.cpp"  />
+    <ClCompile Include="D:\Project\C++\CG\asst1_drawsvg-master\src\viewport.cpp"  />
+    <ClCompile Include="D:\Project\C++\CG\asst1_drawsvg-master\src\triangulation.cpp"  />
+    <ClCompile Include="D:\Project\C++\CG\asst1_drawsvg-master\src\software_renderer.cpp"  />
+    <ClCompile Include="D:\Project\C++\CG\asst1_drawsvg-master\src\drawsvg.cpp"  />
+    <ClCompile Include="D:\Project\C++\CG\asst1_drawsvg-master\src\main.cpp"  />
+    <ClCompile Include="D:\Project\C++\CG\asst1_drawsvg-master\src\dirent\dirent.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Project/C++/CG/asst1_drawsvg-master/build/ZERO_CHECK.vcxproj">
+      <Project>7E97F3FA-2774-310F-813E-631539A7207A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Project/C++/CG/asst1_drawsvg-master/build/CMU462/src/CMU462.vcxproj">
+      <Project>F77E4F27-3AAF-3218-8760-459CED9E1ABD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Project/C++/CG/asst1_drawsvg-master/build/src/drawsvg_hdwr.vcxproj">
+      <Project>ED8F018A-5F15-3948-942C-0BDF0ED84D4C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Project/C++/CG/asst1_drawsvg-master/build/CMU462/deps/glew/glew.vcxproj">
+      <Project>576183B0-A402-38B4-9E4F-ECEAB715B562</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Project/C++/CG/asst1_drawsvg-master/build/CMU462/deps/glfw/src/glfw.vcxproj">
+      <Project>018FA5C4-A5EB-36B8-960F-D5454D6E8A1A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
