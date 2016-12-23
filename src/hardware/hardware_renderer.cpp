@@ -245,7 +245,11 @@ void HardwareRenderer::rasterize_point(float x, float y, Color color) {
   
   // Task 1: 
   // Implement point rasterization
-
+	glBegin(GL_POINTS);
+		//default color is white
+		glColor3f(0.0, 1.0, 0.0);
+		glVertex2f(x, y); //¶¨µã×ø±ê·¶Î§
+	glEnd();
 }
 
 void HardwareRenderer::rasterize_line(float x0, float y0,
