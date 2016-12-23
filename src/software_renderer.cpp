@@ -265,9 +265,7 @@ void SoftwareRendererImp::rasterize_line( float x0, float y0,
 
 	int deltaX = x1 - x0;
 	int deltaY = abs(y1 - y0);
-	float error = 0.0f;
-	float slop = deltaY * 1.0f / deltaX ;
-	cout << slop << endl;
+	int error = deltaX / 2;
 	int yStep = 0;
 	int y = y0;
 	if (y0 < y1) {
@@ -283,10 +281,10 @@ void SoftwareRendererImp::rasterize_line( float x0, float y0,
 		else {
 			rasterize_point(x, y);
 		}
-		error = error + slop;
-		if (error >= 0.5) {
+		error = error - deltaY;
+		if (error < 0) {
 			y = y + yStep;
-			error = error - 1.0;
+			error = error + deltaX;
 		}
 	}
 }
