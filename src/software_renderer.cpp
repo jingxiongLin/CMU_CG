@@ -227,7 +227,7 @@ void SoftwareRendererImp::draw_group( Group& group ) {
 // The input arguments in the rasterization functions 
 // below are all defined in screen space coordinates
 
-void SoftwareRendererImp::rasterize_point( float x, float y, Color color ) {
+void SoftwareRendererImp::rasterize_point( float x, float y, Color color = Color(1.0f, 0.0f, 1.0f)) {
 
   // fill in the nearest pixel
   int sx = (int) floor(x);
@@ -245,12 +245,50 @@ void SoftwareRendererImp::rasterize_point( float x, float y, Color color ) {
 
 }
 
+
 void SoftwareRendererImp::rasterize_line( float x0, float y0,
                                           float x1, float y1,
                                           Color color) {
 
   // Task 2: 
   // Implement line rasterization
+
+	bool steep = abs(y1 - y0) > abs(x1 - x0);
+	if (steep) {
+		swap(x0, y0);
+		swap(x1, y1);
+	}
+	if (x0 > x1) {
+		swap(x0, x1);
+		swap(y0, y1);
+	}
+
+	int deltaX = x1 - x0;
+	int deltaY = abs(y1 - y0);
+	float error = 0.0f;
+	float slop = deltaY * 1.0f / deltaX ;
+	cout << slop << endl;
+	int yStep = 0;
+	int y = y0;
+	if (y0 < y1) {
+		yStep = 1;
+	}
+	else {
+		yStep = -1;
+	}
+	for (int x = x0; x < x1; x++) {
+		if (steep) {
+			rasterize_point(y, x);
+		}
+		else {
+			rasterize_point(x, y);
+		}
+		error = error + slop;
+		if (error >= 0.5) {
+			y = y + yStep;
+			error = error - 1.0;
+		}
+	}
 }
 
 void SoftwareRendererImp::rasterize_triangle( float x0, float y0,
