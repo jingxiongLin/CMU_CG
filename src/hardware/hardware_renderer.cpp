@@ -271,7 +271,12 @@ void HardwareRenderer::rasterize_triangle(float x0, float y0,
                                           Color color) {
   // Task 1: 
   // Implement triangle rasterization
-
+	glBegin(GL_TRIANGLES);
+	glColor3f(0.6f, 0.2f, 1.0f);
+		glVertex2f(x0, y0);
+		glVertex2f(x1, y1);
+		glVertex2f(x2, y2);
+	glEnd();
 }
 
 void HardwareRenderer::rasterize_image(float x0, float y0,
